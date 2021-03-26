@@ -590,7 +590,7 @@ Renders a parent widget for either `Cupertino` or `Material` while sharing a com
 ```dart
  PlatformWidgetBuilder(;
    cupertino: (_, child, __) => GestureDetector(child: child, onTap: _handleTap),
-   material: (_, child, __) => IniWell(child: child, onTap: _handleTap),
+   material: (_, child, __) => InkWell(child: child, onTap: _handleTap),
    child: Container(child: Text('Common text')),
  );
 ```
